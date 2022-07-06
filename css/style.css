@@ -1,0 +1,151 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+body {
+  margin: 0;
+}
+.top-part {
+  background-image: url(../images/donation0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+.top-text,
+.donate-part {
+  text-align: center;
+}
+.top-text h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 65px;
+  color: white;
+  margin-bottom: 0;
+}
+.top-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 35px;
+}
+.button-one {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  background-color: #ff5959;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.flexible-container {
+  display: flex;
+  justify-content: center;
+}
+.flexible-container h3 {
+  padding: 50px;
+  color: #555555;
+  background-color: #e7e7e7;
+  margin: 20px;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+}
+.active {
+  color: #ff5959 !important;
+  border: 5px solid #ff5959;
+  background-color: #ffeeee !important;
+}
+.donate-part > h2 {
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+  margin-top: 100px;
+}
+.donate-part > p {
+  color: #707070;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.amount {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #707070;
+  width: 680px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.donate-part ::placeholder {
+  color: #707070;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.plan-item {
+  width: 25%;
+  padding: 50px;
+  margin: 50px;
+}
+.plan-item h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+.plan-item p {
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+}
+#item-one {
+  background-color: #eef6f7;
+}
+#item-two {
+  background-color: #ffefef;
+}
+#item-three {
+  background-color: #fff4d6;
+}
+.update-part {
+  text-align: center;
+}
+.button-two {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  background-color: #ff5959;
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+input[type="email"] {
+  border: none;
+  outline: none;
+  padding: 22px 10px 17px 10px;
+  margin-right: -4px;
+  width: 400px;
+  background-color: #d9d9d9;
+  border-radius: 10px 0 0 10px;
+}
+.update-part ::placeholder {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.update-part {
+  background-color: #fff4d6;
+  margin: 50px 300px;
+  padding: 100px;
+}
+footer {
+  background-color: black;
+  padding: 25px;
+  text-align: center;
+}
+footer > h3 {
+  color: #ff5959;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+}
+footer > p {
+  color: #d9dbe1;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
